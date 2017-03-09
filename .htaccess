@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Artur"
+AuthUserFile C:\wamp\www\MM-15\.htpasswd
+Require valid-user
+
+
+<files "*.txt">
+deny from all
+</files>
